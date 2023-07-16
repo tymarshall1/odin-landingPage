@@ -41,7 +41,7 @@ button {
   border-radius: 5px;
 }
 
-.container {
+.head-container {
   display: flex;
   gap: 25px;
 }
@@ -67,4 +67,66 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  margin-bottom: 200px;
+}
+
+.random-info h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.random-info-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 3px solid #3882f6;
+  /* width: 200px; */
+  height: 150px;
+  border-radius: 10px;
+  flex-basis: 200px;
+}
+
+.card p {
+  margin-top: 170px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.quote-container {
+  display: flex;
+  background-color: #e5e7eb;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  text-align: left;
+  padding: 75px 200px;
+  font-size: 36px;
+  color: #303b4b;
+}
+
+.quote h5 {
+  text-align: end;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.call-to-action-container {
+  display: flex;
 }
